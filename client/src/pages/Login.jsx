@@ -15,7 +15,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (userInfo && location.pathname === '/login') {
+    if (userInfo) {
       navigate('/chat');
     }
   }, [navigate, userInfo, location.pathname]);
