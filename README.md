@@ -5,11 +5,11 @@ Implementation of a realtime chat application using websockets that are driven w
 ![plot](./client/src/assets/Screencast%20from%2010-24-2024%2012_43_43%20PM.mp4)
 
 ## Tech-Stack Used
--`Vite`: React frontend framework
--`Django`: A high level python web framework tht encourages rapid development and clean, pragmatic design
--`Redis`:An in memory database, a memory cache, that can persist data on a disk, allowing fast data access and storage
--`Daphne`: Is a HTTP, HTTP2 and websocketts protocol server for ASGI and ASGI-HTTP, developed to power Django channels
--`Django-Channels`: Is a project that takes django and extends its abilities beyond HTTP-to handle websockets, chat protocols and more. It is built on a python specification called ASGI.
+- `Vite`: React frontend framework
+- `Django`: A high level python web framework tht encourages rapid development and clean, pragmatic design
+- `Redis`:An in memory database, a memory cache, that can persist data on a disk, allowing fast data access and storage
+- `Daphne`: Is a HTTP, HTTP2 and websocketts protocol server for ASGI and ASGI-HTTP, developed to power Django channels
+- `Django-Channels`: Is a project that takes django and extends its abilities beyond HTTP-to handle websockets, chat protocols and more. It is built on a python specification called ASGI.
 
 ## How Channels work
 
@@ -43,7 +43,7 @@ Your channels or ASGI applications will be insantiated once per scope, and then 
  - `The channels or ASGI application processes this and generates a 'http.response' event to send back to the browser and close the connections`.
  - `The HTTP request/ response is completed and the scope is destroyed`
 
- #### An exmple with a chatbot
+ #### An example with a chatbot
 
  - `The user send a first message to the chatbot`.
  - `This opens a scope containing the user's username, chosen name, and user ID`
@@ -98,7 +98,7 @@ Your channels or ASGI applications will be insantiated once per scope, and then 
     pip install -r requirements.txt
 
     cd backend/my_app
-    
+
     python3 manage.py runserver
 ```
 
