@@ -2,7 +2,7 @@
 
 Implementation of a realtime chat application using websockets that are driven with django-channels and work with django native ASGI(Asynchronous Server Gateway Interface) support, but still you can still write custom HTTP long-polling handling, or websocket receivers and have that code sit alongside your existing code, URL routing middleware-they are all just ASGI applications.
 
-![plot](./client/src/assets/Screencast%20from%2010-24-2024%2012_43_43%20PM.mp4)
+![plot](./client/src/assets/Screenshot%20from%202024-10-24%2007-59-05.png)
 
 ## Tech-Stack Used
 - `Vite`: React frontend framework
