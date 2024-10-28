@@ -89,13 +89,13 @@ Your channels or ASGI applications will be insantiated once per scope, and then 
 
 - Create a virtual environment  after navigating to the realtime_chat
 
-    `cd realtime_chat`
-
-    `virtualenv venv`
-
-    `source venv/bin/activate`
-
 ```sh
+    cd realtime_chat
+
+    virtualenv venv
+
+    source venv/bin/activate
+
     pip install -r requirements.txt
 
     cd backend/my_app
