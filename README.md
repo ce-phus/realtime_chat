@@ -10,6 +10,7 @@ Implementation of a realtime chat application using websockets that are driven w
 - `Redis`:An in memory database, a memory cache, that can persist data on a disk, allowing fast data access and storage
 - `Daphne`: Is a HTTP, HTTP2 and websocketts protocol server for ASGI and ASGI-HTTP, developed to power Django channels
 - `Django-Channels`: Is a project that takes django and extends its abilities beyond HTTP-to handle websockets, chat protocols and more. It is built on a python specification called ASGI.
+- `Tailwind css`: Tailwind CSS is an open-source CSS framework. Unlike other frameworks, like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. Instead, it creates a list of "utility" CSS classes that can be used to style each element by mixing and matching.
 
 ## How Channels work
 
